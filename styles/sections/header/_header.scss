@@ -13,6 +13,7 @@ header {
   h2 {
     color: #fff;
     padding: 10px;
+    background-color: rgba(0, 0, 0, 0.58);
   }
 
   h1 {
@@ -37,8 +38,13 @@ header {
   }
 
   button:hover {
-    background-color: $primary-dark;
-    border-color: $primary-dark;
+    background-color: #fff;
+    border-color: #fff;
+    color: #000;
+
+    .fa {
+      color: $primary-color;
+    }
   }
 
   .header-content {

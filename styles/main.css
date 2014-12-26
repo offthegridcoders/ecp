@@ -60,7 +60,8 @@ header {
   header h1,
   header h2 {
     color: #fff;
-    padding: 10px; }
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.58); }
   header h1 {
     margin: 0 0 10px;
     font-weight: 200; }
@@ -77,8 +78,11 @@ header {
     min-width: 140px;
     margin: 50px 10px 0; }
   header button:hover {
-    background-color: #445E09;
-    border-color: #445E09; }
+    background-color: #fff;
+    border-color: #fff;
+    color: #000; }
+    header button:hover .fa {
+      color: #8DA94C; }
   header .header-content {
     position: absolute;
     left: 50px; }
