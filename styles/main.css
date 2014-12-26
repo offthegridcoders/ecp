@@ -139,7 +139,7 @@ header {
       background-color: #5ea9dd; }
   .team-list .team-member:hover {
     transition: background-size 0.2s ease;
-    background-size: 106%; }
+    background-size: 109%; }
     .team-list .team-member:hover .social-wrapper {
       transition: bottom .5s ease;
       bottom: 10px; }
