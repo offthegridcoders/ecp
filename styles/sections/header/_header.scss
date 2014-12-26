@@ -7,6 +7,7 @@ header {
   position: relative;
   height: 450px;
   background-color: $primary-color;
+  margin-top: 80px;
 
   h1,
   h2 {
@@ -39,6 +40,21 @@ header {
     background-color: $primary-dark;
     border-color: $primary-dark;
   }
+}
+
+header:after {
+  content: '';
+  position: absolute;
+  bottom: -20px;
+  width: 40px;
+  height: 40px;
+  left: 50%;
+  background-color: #fff;
+  margin-left: -20px;
+  margin-top: -20px;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
 }
 
 .gradient-lr {

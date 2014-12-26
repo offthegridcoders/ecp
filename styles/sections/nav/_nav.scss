@@ -1,9 +1,13 @@
 nav {
   padding: 15px 0;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.38);
-  position: relative;
+  position: fixed;
   z-index: 9000;
-
+  background-color: #fff;
+  width: 100%;
+  height: 80px;
+  top: 0;
+  
   h1 {
     display: inline-block;
     font-size: 20px;
@@ -20,7 +24,7 @@ nav {
     text-decoration: none;
     color: #000;
   }
-  
+
   li {
     cursor: pointer;
     display: inline-block;
