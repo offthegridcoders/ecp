@@ -11,10 +11,10 @@
   }
 }
 
-.simple-copy-section:before {
+.simple-copy-section:before,
+.simple-copy-section:after {
   content: '';
   position: absolute;
-  top: 0;
   width: 40px;
   height: 40px;
   background-color: #fff;
@@ -23,4 +23,13 @@
   -ms-transform: rotate(45deg); /* IE 9 */
   -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
   transform: rotate(45deg);
+}
+
+.simple-copy-section:before {
+  top: 0;
+}
+
+
+.simple-copy-section:after {
+  bottom: -20px;
 }

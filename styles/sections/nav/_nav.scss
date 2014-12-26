@@ -1,5 +1,5 @@
 nav {
-  padding: 15px 0;
+  padding: 23px 0;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.38);
   position: fixed;
   z-index: 9000;
@@ -11,13 +11,23 @@ nav {
   h1 {
     display: inline-block;
     font-size: 20px;
-    margin-left: 20px;
+    margin: 0 0 0 20px;
+
+    a {
+      font-family: $nav-h1-font;
+    }
   }
 
+  .fa-code-fork {
+    font-size: 36px;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  
   ul {
     float: right;
     list-style: none;
-    margin-right: 20px;
+    margin: 8px 20px 0 0;
   }
 
   a {
@@ -34,7 +44,7 @@ nav {
   }
 
   li:hover {
-    border-bottom: solid $primary-dark 5px;
+    border-bottom: solid $primary-color 5px;
   }
 }
 

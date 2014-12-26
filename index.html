@@ -19,6 +19,7 @@
 <link href="styles/vendor/normalize.css" rel="stylesheet">
 <link href="styles/vendor/animate.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <!-- jQuery -->
 <script src="js/jquery.min.js"></script>
@@ -29,16 +30,18 @@
 
 <body>
 <nav class="animated fadeInDownBig">
-  <h1><a href="#"><i class="fa fa-code-fork"></i> East Coast Product</a></h1>
+  <h1><i class="fa fa-code-fork"></i><a href="#">East Coast Product</a></h1>
   <ul>
     <li><a href="#team">team</a></li>
     <li><a href="#contact">contact</a></li>
   </ul>
 </nav>
 <header>
-  <h1 class="wow lightSpeedIn">Lorem ipsum dolor sit amet, consectetuer adipiscing.</h1>
-  <h2 class="wow lightSpeedIn">Ut wisi enim ad minim veniam, quis nostrud exerci tation.</h2>
-  <button class="wow lightSpeedIn">Lorem Ipsum <i class="fa fa-chevron-right"></i></button>
+  <div class="header-content">
+    <h1 class="wow lightSpeedIn">Lorem ipsum dolor sit amet, consectetuer adipiscing.</h1>
+    <h2 class="wow lightSpeedIn">Ut wisi enim ad minim veniam, quis nostrud exerci tation.</h2>
+    <button class="wow lightSpeedIn">Lorem Ipsum <i class="fa fa-chevron-right"></i></button>
+  </div>
 </header>
 <section class="team-section" id="team">
   <h1 class="wow pulse">The Team</h1>
@@ -114,7 +117,7 @@
 <section class="simple-copy-section">
   <h1>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</h1>
 </section>
-<section id="contact">
+<section class="contact-section" id="contact">
   <h1>Contact Us</h1>
   <form name="contactForm">
     <label>Name<label>
@@ -123,11 +126,11 @@
     <input type="email" required>
     <label>Message<label>
     <textarea type="text" required></textarea>
-    <input type="submit">
+    <button type="submit">SEND</button>
   </form>
 </section>
 <footer>
-  <p>East Coast Product</br>Boston, MA</br>&copy; 2014</p>
+  <p><strong>East Coast Product</strong> Boston, MA &copy; 2014</p>
 </footer>
 
 <script>
