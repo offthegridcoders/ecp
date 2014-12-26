@@ -1,12 +1,4 @@
-$.fn.preload = function() {
-    this.each(function(){
-        $('<img/>')[0].src = this;
-    });
-}
-
-// Usage:
-
-$([
+var listOfImages = [
   'assets/header.jpg',
   'assets/team/team01.jpg',
   'assets/team/team01-bw.jpg',
@@ -20,7 +12,47 @@ $([
   'assets/team/team05-bw.jpg',
   'assets/team/team06.jpg',
   'assets/team/team06-bw.jpg'
-  ]).preload();
+  ];
+  
+var preloadPictures = function(pictureUrls, callback) {
+    var i,
+        j,
+        loaded = 0;
+
+    for (i = 0, j = pictureUrls.length; i < j; i++) {
+        (function (img, src) {
+            img.onload = function () {                               
+                if (++loaded == pictureUrls.length && callback) {
+                    callback();
+                }
+            };
+
+            // Use the following callback methods to debug
+            // in case of an unexpected behavior.
+            img.onerror = function () {};
+            img.onabort = function () {};
+
+            img.src = src;
+        } (new Image(), pictureUrls[i]));
+    }
+};
+
+preloadPictures(listOfImages, function(){
+    console.log('a');
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 $( document ).ready(function() {
