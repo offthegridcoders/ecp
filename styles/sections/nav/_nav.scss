@@ -11,17 +11,11 @@ nav {
   h1 {
     display: inline-block;
     font-size: 20px;
-    margin: 0 0 0 20px;
+    margin: 4px 0 0 20px;
 
     a {
       font-family: $nav-h1-font;
     }
-  }
-
-  .fa-code-fork {
-    font-size: 36px;
-    vertical-align: middle;
-    margin-right: 10px;
   }
   
   ul {

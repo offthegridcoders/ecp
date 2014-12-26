@@ -24,13 +24,9 @@ nav {
   nav h1 {
     display: inline-block;
     font-size: 20px;
-    margin: 0 0 0 20px; }
+    margin: 4px 0 0 20px; }
     nav h1 a {
       font-family: "Open Sans Condensed", sans-serif; }
-  nav .fa-code-fork {
-    font-size: 36px;
-    vertical-align: middle;
-    margin-right: 10px; }
   nav ul {
     float: right;
     list-style: none;
