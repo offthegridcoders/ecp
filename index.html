@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<base href="http://thewickedwebdev.github.io/ecp/">
+
+<meta charset="utf-8">
+<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="favicon.ico">
+
+<title>1221 Capital LLC</title>
+
+<!-- Custom CSS -->
+<link href="styles/main.css" rel="stylesheet">
+<link href="http//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- jQuery -->
+<script src="assets/js/jquery.js"></script>
+
+</head>
+
+<body>
+
+<section>
+</section>
+
+<footer>
+</footer>
+
+
+<script>
+    $('nav ul').find('a').click(function(){
+        var $href = $(this).attr('href');
+        var $anchor = $($href).offset();
+        $('body').animate({ scrollTop: $anchor.top });
+        return false;
+    });
+</script>
+</body>
+
+</html>
