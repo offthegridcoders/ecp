@@ -1,1 +1,8 @@
-@import 'layout/_layout.scss';
+@import 'defaults/_variables.scss';
+@import 'defaults/_defaults.scss';
+
+@import 'sections/_sections-default.scss';
+@import 'sections/nav/_nav.scss';
+@import 'sections/header/_header.scss';
+@import 'sections/team/_team-section.scss';
+@import 'sections/simple-copy-section/_simple-copy-section.scss';

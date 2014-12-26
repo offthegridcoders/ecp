@@ -1,0 +1,36 @@
+nav {
+  padding: 15px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.38);
+  position: relative;
+  z-index: 9000;
+
+  h1 {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  ul {
+    float: right;
+    list-style: none;
+    margin-right: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  li {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 20px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+  }
+
+  li:hover {
+    border-bottom: solid $primary-dark 5px;
+  }
+}
+
