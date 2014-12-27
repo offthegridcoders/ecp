@@ -36,20 +36,24 @@
     transition: bottom .5s ease;
     position: absolute;
     bottom: -50px;
-    left: 50%;
-    width: 160px;
+    left: 86px;
+    width: 188px;
     margin-left: -80px;
 
     i {
       font-size: 22px;
-      margin: 5px;
+      margin: 0 3px;
       color: #fff;
       background-color: $primary-color;
-      padding: 10px;
+      padding: 9px;
     }
 
     .fa-envelope:hover {
       background-color: $primary-dark;
+    }
+
+    .fa-github:hover {
+      background-color: #323232; // linkedin blue
     }
 
     .fa-linkedin:hover {

@@ -62,6 +62,12 @@ nav {
       border-bottom: solid #8DA94C 5px; }
   nav .active {
     border-bottom: solid #8DA94C 5px; }
+  @media screen and (max-width: 500px) {
+    nav ul {
+      display: none;
+      float: none;
+      margin: 0 auto;
+      max-width: 100%; } }
 
 .clear-nav {
   transition: background-color .4s ease;
@@ -190,17 +196,19 @@ footer {
     transition: bottom .5s ease;
     position: absolute;
     bottom: -50px;
-    left: 50%;
-    width: 160px;
+    left: 86px;
+    width: 188px;
     margin-left: -80px; }
     .team-list .social-wrapper i {
       font-size: 22px;
-      margin: 5px;
+      margin: 0 3px;
       color: #fff;
       background-color: #8DA94C;
-      padding: 10px; }
+      padding: 9px; }
     .team-list .social-wrapper .fa-envelope:hover {
       background-color: #445E09; }
+    .team-list .social-wrapper .fa-github:hover {
+      background-color: #323232; }
     .team-list .social-wrapper .fa-linkedin:hover {
       background-color: #3b5998; }
     .team-list .social-wrapper .fa-twitter:hover {

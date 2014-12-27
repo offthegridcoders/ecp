@@ -46,6 +46,15 @@ nav {
   .active {
     border-bottom: solid $primary-color 5px;
   }
+
+  @media screen and (max-width: 500px) {
+    ul {
+      display: none;
+      float: none;
+      margin: 0 auto;
+      max-width: 100%;
+    }
+  }
 }
 
 .clear-nav {
