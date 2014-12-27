@@ -57,8 +57,8 @@ nav {
     margin: 0 20px;
     text-transform: uppercase;
     padding-bottom: 30px; }
-  nav a:hover {
-    border-bottom: solid #8DA94C 5px; }
+    nav li a:hover {
+      border-bottom: solid #8DA94C 5px; }
   nav .active {
     border-bottom: solid #8DA94C 5px; }
 

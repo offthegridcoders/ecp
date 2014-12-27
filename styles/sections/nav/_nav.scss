@@ -36,10 +36,10 @@ nav {
     margin: 0 20px;
     text-transform: uppercase;
     padding-bottom: 30px;
-  }
-
-  a:hover {
-    border-bottom: solid $primary-color 5px;
+    
+    a:hover {
+      border-bottom: solid $primary-color 5px;
+    }
   }
 
   .active {
