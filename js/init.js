@@ -13,7 +13,7 @@ var listOfImages = [
   'assets/team/team06.jpg',
   'assets/team/team06-bw.jpg'
   ];
-  
+
 var preloadPictures = function(pictureUrls, callback) {
     var i,
         j,
@@ -38,7 +38,9 @@ var preloadPictures = function(pictureUrls, callback) {
 };
 
 preloadPictures(listOfImages, function(){
-    console.log('a');
+  console.log('asdf');
+  $("#preload-wrapper").css("display","none");
+
 });
 
 
