@@ -1,3 +1,13 @@
+.cinemagraph {
+  background-image: url('../assets/header.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  position: fixed;
+  width: 100%;
+  height: 450px;
+}
+
 header {
   padding: 50px;
   width: 100%;
@@ -6,7 +16,6 @@ header {
   background-position: 50%;
   position: relative;
   height: 450px;
-  background-image: url('../assets/header.gif');
   //margin-top: 80px;
 
   h1,

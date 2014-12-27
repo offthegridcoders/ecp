@@ -2,6 +2,7 @@
 // list of images to preload
 var listOfImages = [
   'assets/header.jpg',
+  'assets/header.gif',
   'assets/team/team01.jpg',
   'assets/team/team01-bw.jpg',
   'assets/team/team02.jpg',

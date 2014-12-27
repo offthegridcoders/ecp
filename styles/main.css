@@ -80,6 +80,15 @@ nav {
     color: #8DA94C;
     border: 0; }
 
+.cinemagraph {
+  background-image: url("../assets/header.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  position: fixed;
+  width: 100%;
+  height: 450px; }
+
 header {
   padding: 50px;
   width: 100%;
@@ -87,8 +96,7 @@ header {
   background-repeat: no-repeat;
   background-position: 50%;
   position: relative;
-  height: 450px;
-  background-image: url("../assets/header.gif"); }
+  height: 450px; }
   header h1,
   header h2 {
     color: #fff;
@@ -164,9 +172,11 @@ footer {
   color: #fff;
   font-size: 12px;
   padding: 30px 50px;
-  font-weight: 200; }
+  font-weight: 200;
+  position: relative; }
 
 .team-section {
+  background-color: #fff;
   text-align: center;
   position: relative;
   padding: 100px 20px; }
