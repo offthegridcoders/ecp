@@ -137,28 +137,8 @@
   <p><strong>East Coast Product</strong> Boston, MA &copy; 2014</p>
 </footer>
 
-<script>
- new WOW().init();
-</script>
 
-<script>
-    $('nav ul').find('a').click(function(){
-        var $href = $(this).attr('href');
-        var $anchor = $($href).offset();
-        $('body').animate({ scrollTop: $anchor.top });
-        return false;
-    });
-    $('nav h1').find('a').click(function(){
-        $('body').animate({ scrollTop: 0 });
-        return false;
-    });
-    $('header').find('a').click(function(){
-        var $href = $(this).attr('href');
-        var $anchor = $($href).offset();
-        $('body').animate({ scrollTop: $anchor.top });
-        return false;
-    });
-</script>
+<script src="js/scripts.js"></script>
 </body>
 
 </html>

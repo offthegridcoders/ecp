@@ -11,13 +11,11 @@
   }
 }
 
-.simple-copy-section:before,
-.simple-copy-section:after {
+.simple-copy-section:before {
   content: '';
   position: absolute;
   width: 40px;
   height: 40px;
-  background-color: #fff;
   margin-left: -20px;
   margin-top: -20px;
   -ms-transform: rotate(45deg); /* IE 9 */
@@ -26,10 +24,6 @@
 }
 
 .simple-copy-section:before {
+  background-color: #fff;
   top: 0;
-}
-
-
-.simple-copy-section:after {
-  bottom: -20px;
 }

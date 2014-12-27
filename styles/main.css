@@ -51,7 +51,7 @@ nav {
   nav a {
     text-decoration: none;
     color: #000;
-    padding-bottom: 30px; }
+    padding-bottom: 27px; }
   nav li {
     cursor: pointer;
     display: inline-block;
@@ -253,6 +253,7 @@ footer {
     background-image: url("../assets/team/team06.jpg"); }
 
 .contact-section {
+  background-color: #F2F2F2;
   text-align: center;
   position: relative;
   padding: 100px 20px; }
@@ -269,7 +270,7 @@ footer {
     margin-bottom: 5px; }
   .contact-section input,
   .contact-section textarea {
-    border: solid 1px rgba(0, 0, 0, 0.06);
+    border: 0;
     margin: 5px 0 10px;
     outline: none;
     padding: 5px;
@@ -278,14 +279,15 @@ footer {
   .contact-section textarea:focus {
     border-color: rgba(0, 0, 0, 0.3); }
   .contact-section input {
-    height: 30px; }
+    height: 40px; }
   .contact-section textarea {
     height: 250px;
     resize: none; }
   .contact-section button {
     padding: 10px 40px;
-    background: transparent;
-    border: solid 1px #000;
+    background-color: #8DA94C;
+    color: #fff;
+    border: 0;
     font-weight: 200; }
 
 .simple-copy-section {
@@ -298,13 +300,11 @@ footer {
     font-weight: 200;
     font-size: 26px; }
 
-.simple-copy-section:before,
-.simple-copy-section:after {
+.simple-copy-section:before {
   content: '';
   position: absolute;
   width: 40px;
   height: 40px;
-  background-color: #fff;
   margin-left: -20px;
   margin-top: -20px;
   -ms-transform: rotate(45deg);
@@ -314,9 +314,7 @@ footer {
   transform: rotate(45deg); }
 
 .simple-copy-section:before {
+  background-color: #fff;
   top: 0; }
-
-.simple-copy-section:after {
-  bottom: -20px; }
 
 /*# sourceMappingURL=main.css.map */
