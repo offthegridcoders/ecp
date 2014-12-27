@@ -1,3 +1,5 @@
+
+// list of images to preload
 var listOfImages = [
   'assets/header.jpg',
   'assets/team/team01.jpg',
@@ -14,6 +16,7 @@ var listOfImages = [
   'assets/team/team06-bw.jpg'
   ];
 
+// preload images function
 var preloadPictures = function(pictureUrls, callback) {
     var i,
         j,
@@ -37,25 +40,48 @@ var preloadPictures = function(pictureUrls, callback) {
     }
 };
 
+// call preload function
 preloadPictures(listOfImages, function(){$("#preload-wrapper").css("display","none");});
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 $( document ).ready(function() {
+  // adjusts header height
     $('header').css("height", (window.innerHeight - 80)); 
 
     var newHeaderContentHeight = (window.innerHeight / 2) - ($('.header-content').height()/2);
     $('.header-content').css("top", newHeaderContentHeight); 
+
+    $('nav ul a').each(function() {
+      $(this).click(function() {
+        $(this).addClass('active');
+      })
+    });
+});
+
+$('a[href="#team"]').addClass('active');
+
+
+var isVisible = function(elem) {
+  var elemTop = $(elem).offset().top;
+  var elemHeight = $(elem).height();
+  var sclTop = $(window).scrollTop();
+  var newTop = elemTop - sclTop;
+  if ((newTop < 1) && (newTop > (-1*elemHeight))) {
+    return true;
+  } else {
+    return false;
+  }
+};
+
+$(window).on('scroll', function ( e ) {
+  if(isVisible('#team')) {
+    $('a[href="#team"]').addClass('active');
+  } else {
+    $('a[href="#team"]').removeClass('active');
+  }
+  if(isVisible('#contact')) {
+    $('a[href="#contact"]').addClass('active');
+  } else {
+    $('a[href="#contact"]').removeClass('active');
+  }
 });
