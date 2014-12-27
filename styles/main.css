@@ -283,9 +283,19 @@ footer {
     max-width: 100%;
     width: 400px; }
   .contact-section label {
+    color: #bebebe;
     text-align: left;
     display: block;
-    margin-bottom: 5px; }
+    margin-bottom: 5px;
+    position: relative; }
+  .contact-section .hide-label {
+    transition: top .3s ease;
+    top: 40px;
+    z-index: -1; }
+  .contact-section .show-label {
+    transition: top .3s ease;
+    z-index: 1;
+    top: 0; }
   .contact-section input,
   .contact-section textarea {
     border: 0;

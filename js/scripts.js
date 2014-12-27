@@ -17,8 +17,17 @@ $('header').find('a').click(function(){
     return false;
 });
 
-
 $( document ).ready(function() {
+  $('.input').on('input propertychange paste', function() {
+    if ($(this).val()) {
+      $(this).prev().addClass('show-label');
+      $(this).prev().removeClass('hide-label');
+    } else {
+      $(this).prev().removeClass('show-label');
+      $(this).prev().addClass('hide-label');
+    }
+  });
+
   // adjusts header height
     $('header').css("height", window.innerHeight); 
     $('.cinemagraph').css('height', window.innerHeight);

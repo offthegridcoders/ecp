@@ -16,9 +16,23 @@
   }
 
   label {
+    color: rgb(190, 190, 190);
     text-align: left;
     display: block;
     margin-bottom: 5px;
+    position: relative;
+  }
+
+  .hide-label {
+    transition: top .3s ease;
+    top: 40px;
+    z-index: -1;
+  }
+
+  .show-label {
+    transition: top .3s ease;
+    z-index: 1;
+    top: 0;
   }
 
   input,
