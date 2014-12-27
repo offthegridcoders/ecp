@@ -7,13 +7,12 @@ header {
   position: relative;
   height: 450px;
   background-image: url('../assets/header.jpg');
-  margin-top: 80px;
+  //margin-top: 80px;
 
   h1,
   h2 {
     color: #fff;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.58);
   }
 
   h1 {
@@ -28,44 +27,34 @@ header {
   }
 
   button {
+    transition: background-color .3s ease;
+    transition: color .3s ease;
     text-transform: uppercase;
     padding: 15px 25px;
     border: solid 2px #fff;
     background-color: transparent;
     color: #fff;
     min-width: 140px;
-    margin: 50px 10px 0;
+    margin: 20px 10px 0;
+    outline: none;
   }
 
   button:hover {
-    background-color: #fff;
-    border-color: #fff;
-    color: #000;
+    transition: background-color .3s ease;
+    transition: color .3s ease;
+    background-color: $primary-color;
+    border-color: $primary-color;
+    color: #fff;
 
     .fa {
-      color: $primary-color;
+      color: $primary-dark;
     }
   }
 
   .header-content {
-    position: absolute;
-    left: 50px;
+    text-align: center;
+    position: relative;
   }
-}
-
-header:after {
-  content: '';
-  position: absolute;
-  bottom: -20px;
-  width: 40px;
-  height: 40px;
-  left: 50%;
-  background-color: #fff;
-  margin-left: -20px;
-  margin-top: -20px;
-  -ms-transform: rotate(45deg); /* IE 9 */
-  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
-  transform: rotate(45deg);
 }
 
 .gradient-overlay {
@@ -75,15 +64,9 @@ header:after {
   background-color: #000;
   top: 0;
   left: 0;
-  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
-  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjY1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjU1JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
-  background: -moz-linear-gradient(left,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 55%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.65)), color-stop(55%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(left,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 55%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(left,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 55%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(left,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 55%); /* IE10+ */
-  background: linear-gradient(to right,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 55%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-8 */
+  background: url("../assets/square-tile.png");
+  background-color: rgba(0, 0, 0, 0.16);
+  background-size: 19px;
 }
 
 .gradient-lr {

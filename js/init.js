@@ -46,9 +46,10 @@ preloadPictures(listOfImages, function(){$("#preload-wrapper").css("display","no
 
 $( document ).ready(function() {
   // adjusts header height
-    $('header').css("height", (window.innerHeight - 80)); 
+    $('header').css("height", window.innerHeight); 
 
-    var newHeaderContentHeight = (window.innerHeight / 2) - ($('.header-content').height()/2);
+    var newHeaderContentHeight = (window.innerHeight / 2) - ($('.header-content').height() + 20); // 50%
+    //var newHeaderContentHeight = window.innerHeight - ($('.header-content').height() + 100);
     $('.header-content').css("top", newHeaderContentHeight); 
 
     $('nav ul a').each(function() {
@@ -74,6 +75,12 @@ var isVisible = function(elem) {
 };
 
 $(window).on('scroll', function ( e ) {
+  if ($(window).scrollTop() > window.innerHeight - 150) {
+    $('nav').removeClass('clear-nav');
+  } else {
+    $('nav').addClass('clear-nav');
+  };
+
   if(isVisible('#team')) {
     $('a[href="#team"]').addClass('active');
   } else {
