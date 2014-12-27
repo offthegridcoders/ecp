@@ -37,11 +37,7 @@ var preloadPictures = function(pictureUrls, callback) {
     }
 };
 
-preloadPictures(listOfImages, function(){
-  console.log('asdf');
-  $("#preload-wrapper").css("display","none");
-
-});
+preloadPictures(listOfImages, function(){$("#preload-wrapper").css("display","none");});
 
 
 
