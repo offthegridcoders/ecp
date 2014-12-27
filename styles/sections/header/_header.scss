@@ -27,6 +27,10 @@ header {
   h1 {
     margin: 0 0 10px;
     font-weight: 200;
+
+    span {
+      color: $primary-color;
+    }
   }
 
   h2 {

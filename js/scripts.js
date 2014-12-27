@@ -31,9 +31,7 @@ $( document ).ready(function() {
   // adjusts header height
     $('header').css("height", window.innerHeight); 
     $('.cinemagraph').css('height', window.innerHeight);
-
-    var newHeaderContentHeight = (window.innerHeight / 2) - ($('.header-content').height() + 20); // 50%
-    //var newHeaderContentHeight = window.innerHeight - ($('.header-content').height() + 100);
+    var newHeaderContentHeight = (window.innerHeight / 2) - ($('.header-content').height()/2 + 50); // 50%
     $('.header-content').css("top", newHeaderContentHeight); 
 
     $('nav ul a').each(function() {
