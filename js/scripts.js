@@ -63,6 +63,7 @@ $(window).on('scroll', function ( e ) {
     $('nav').addClass('clear-nav');
   };
 
+
   if(isVisible('#team')) {
     $('a[href="#team"]').addClass('active');
   } else {

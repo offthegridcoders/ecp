@@ -32,10 +32,9 @@ nav {
   transition: background-color .4s ease;
   transition: height .4s ease;
   padding: 13px 0;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.38);
   position: fixed;
   z-index: 9000;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.84);
   width: 100%;
   height: 60px;
   top: 0; }
@@ -61,14 +60,17 @@ nav {
     text-transform: uppercase;
     padding-bottom: 30px; }
     nav li a:hover {
+      color: #8DA94C;
+      transition: border-bottom .2s ease;
       border-bottom: solid #8DA94C 5px; }
   nav .active {
+    color: #8DA94C;
+    transition: border-bottom .2s ease;
     border-bottom: solid #8DA94C 5px; }
   @media screen and (max-width: 500px) {
     nav {
       text-align: center;
-      height: 90px;
-      background-color: rgba(255, 255, 255, 0.84); }
+      height: 90px; }
       nav h1 {
         display: block;
         float: none;
@@ -78,6 +80,10 @@ nav {
         margin: 11px auto;
         max-width: 100%;
         padding: 0; } }
+
+nav:hover {
+  transition: background-color .4s ease;
+  background-color: #fff; }
 
 .clear-nav {
   transition: background-color .4s ease;
@@ -95,6 +101,10 @@ nav {
   @media screen and (max-width: 500px) {
     .clear-nav h1 {
       display: none; } }
+
+.clear-nav:hover {
+  transition: background-color .4s ease;
+  background-color: transparent; }
 
 .cinemagraph {
   background-image: url("../assets/header2.gif");
