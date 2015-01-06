@@ -1,4 +1,4 @@
-# BLVENYRBDY Official Website
+# East Coast Product
 
 You can see the progress here: [LINK](http://thewickedwebdev.github.io/ecp/)
 
