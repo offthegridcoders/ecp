@@ -1,13 +1,13 @@
-# East Coast Product
+# BLVENYRBDY Official Website
 
-You can see the progress here: [LINK](http://thewickedwebdev.github.io/blvenyrbdy/)
+You can see the progress here: [LINK](http://thewickedwebdev.github.io/ecp/)
 
 Using SCSS and static HTML
 
 ####About
 
->Where fitness training is available for anyone of every ability to become strong in body, mind, and spirit. Providing a safe environment to help individuals grow to their greatest potential in the New Hampshire region and beyond.
+>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
 
 ####Contact
 
->ironmom40@metrocast.net
+>not-provided@domain.com
