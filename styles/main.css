@@ -202,6 +202,8 @@ footer {
   padding: 30px 50px 150px;
   font-weight: 200;
   position: relative; }
+  footer h2 {
+    font-size: 26px; }
 
 .team-section {
   background-color: #fff;
