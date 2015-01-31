@@ -23,6 +23,7 @@
   }
 
   .team-member {
+    transition: filter 0.2s ease;
     transition: background-size 0.2s ease;
     cursor: pointer;
     position: relative;
@@ -31,6 +32,9 @@
     background-position: 50%;
     background-size: 105%;
     overflow: hidden;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
   }
 
   .social-wrapper {
@@ -68,15 +72,15 @@
 
   .team-member:hover {
     transition: background-size 0.2s ease;
-    background-size: 109%;
+    transition: filter 0.2s ease;
+    background-size: 112%;
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
 
     .social-wrapper {
       transition: bottom .5s ease;
       bottom: 10px;
-    }
-
-    .team01 {
-      background-image: url('.../assets/team/team01-bw.jpg');
     }
   }
 
@@ -98,38 +102,19 @@
     background-image: url('../assets/team/steve-ecp.gif');
   }
   .team02 {
-    background-image: url('../assets/team/team02-bw.jpg');
-  }
-  .team02:hover {
-    transition: background .3s ease;
     background-image: url('../assets/team/team02.jpg');
   }
   .team03 {
-    background-image: url('../assets/team/team03-bw.jpg');
-  }
-  .team03:hover {
-    transition: background .3s ease;
+    background-image: url('../assets/team/team03.jpg');
     background-image: url('../assets/team/team03.jpg');
   }
   .team04 {
-    background-image: url('../assets/team/team04-bw.jpg');
-  }
-  .team04:hover {
-    transition: background .3s ease;
     background-image: url('../assets/team/team04.jpg');
   }
   .team05 {
-    background-image: url('../assets/team/team05-bw.jpg');
-  }
-  .team05:hover {
-    transition: background .3s ease;
     background-image: url('../assets/team/team05.jpg');
   }
   .team06 {
-    background-image: url('../assets/team/team06-bw.jpg');
-  }
-  .team06:hover {
-    transition: background .3s ease;
     background-image: url('../assets/team/team06.jpg');
   }
 }
