@@ -225,7 +225,7 @@ footer {
     display: inline-block;
     margin: 10px 10px 30px; }
   .team-list .team-member {
-    transition: filter 0.2s ease;
+    transition: filter 0.5s ease;
     transition: background-size 0.2s ease;
     cursor: pointer;
     position: relative;
@@ -260,11 +260,11 @@ footer {
       background-color: #5ea9dd; }
   .team-list .team-member:hover {
     transition: background-size 0.2s ease;
-    transition: filter 0.2s ease;
+    transition: filter 0.5s ease;
     background-size: 112%;
-    filter: grayscale(0);
-    -webkit-filter: grayscale(0);
-    filter: grayscale(0); }
+    filter: grayscale(1%);
+    -webkit-filter: grayscale(1%);
+    filter: grayscale(1%); }
     .team-list .team-member:hover .social-wrapper {
       transition: bottom .5s ease;
       bottom: 10px; }
