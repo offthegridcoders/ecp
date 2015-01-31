@@ -29,7 +29,7 @@
     height: 200px;
     width: 200px;
     background-position: 50%;
-    background-size: 100%;
+    background-size: 105%;
     overflow: hidden;
   }
 
@@ -95,10 +95,6 @@
 
 
   .team01 {
-    background-image: url('../assets/team/steve-ecp.gif');
-  }
-  .team01:hover {
-    transition: background .3s ease;
     background-image: url('../assets/team/steve-ecp.gif');
   }
   .team02 {
