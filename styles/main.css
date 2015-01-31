@@ -203,7 +203,8 @@ footer {
   font-weight: 200;
   position: relative; }
   footer h2 {
-    font-size: 26px; }
+    font-size: 26px;
+    font-weight: 200; }
 
 .team-section {
   background-color: #fff;
