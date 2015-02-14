@@ -277,18 +277,15 @@ footer {
     font-size: 16px;
     font-weight: 200; }
   .team-list .team01 {
-    background-image: url("../assets/team/steve-ecp.gif"); }
+    background-image: url("../assets/team/chris.png"); }
   .team-list .team02 {
-    background-image: url("../assets/team/team02.jpg"); }
+    background-image: url("../assets/team/steve.png"); }
   .team-list .team03 {
-    background-image: url("../assets/team/team03.jpg");
-    background-image: url("../assets/team/team03.jpg"); }
+    background-image: url("../assets/team/ivan.png"); }
   .team-list .team04 {
-    background-image: url("../assets/team/team04.jpg"); }
+    background-image: url("../assets/team/petar.png"); }
   .team-list .team05 {
-    background-image: url("../assets/team/team05.jpg"); }
-  .team-list .team06 {
-    background-image: url("../assets/team/team06.jpg"); }
+    background-image: url("../assets/team/niksa.png"); }
 
 .contact-section {
   background-color: #F2F2F2;
