@@ -2,11 +2,11 @@
 // list of images to preload
 var listOfImages = [
   'assets/header2.gif',
-  'assets/team/steve.png',
-  'assets/team/chris.png',
-  'assets/team/ivan.png',
-  'assets/team/niksa.png',
-  'assets/team/petar.png'
+  'assets/team/steve.gif',
+  'assets/team/chris.gif',
+  'assets/team/ivan.gif',
+  'assets/team/niksa.gif',
+  'assets/team/petar.gif'
   ];
 
 // preload images function
