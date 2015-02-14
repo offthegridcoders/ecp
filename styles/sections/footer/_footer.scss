@@ -7,6 +7,11 @@ footer {
   font-weight: 200;
   position: relative;
 
+
+  @media screen and (max-width: 500px) {
+    text-align: center;
+  }
+
   a {
     color: #fff;
     text-decoration: none;
@@ -52,6 +57,11 @@ footer {
     text-align: right;
     width: 450px;
     margin-top: 15px;
+
+    @media screen and (max-width: 500px) {
+      float: none;
+      text-align: center;
+    }
 
     h2 {
       font-size: 22px;

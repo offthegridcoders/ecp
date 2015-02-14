@@ -158,6 +158,10 @@ header {
   header .header-content {
     text-align: center;
     position: relative; }
+    @media screen and (max-width: 500px) {
+      header .header-content h1 {
+        font-size: 22px;
+        margin-top: 40px; } }
 
 .gradient-overlay {
   position: absolute;
@@ -201,6 +205,9 @@ footer {
   padding: 30px 50px;
   font-weight: 200;
   position: relative; }
+  @media screen and (max-width: 500px) {
+    footer {
+      text-align: center; } }
   footer a {
     color: #fff;
     text-decoration: none;
@@ -232,6 +239,10 @@ footer {
     text-align: right;
     width: 450px;
     margin-top: 15px; }
+    @media screen and (max-width: 500px) {
+      footer div {
+        float: none;
+        text-align: center; } }
     footer div h2 {
       font-size: 22px;
       font-weight: 800; }
