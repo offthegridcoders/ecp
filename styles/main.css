@@ -314,15 +314,15 @@ footer {
     font-size: 16px;
     font-weight: 200; }
   .team-list .team01 {
-    background-image: url("../assets/team/chris.png"); }
+    background-image: url("../assets/team/chris.gif"); }
   .team-list .team02 {
-    background-image: url("../assets/team/steve.png"); }
+    background-image: url("../assets/team/steve.gif"); }
   .team-list .team03 {
-    background-image: url("../assets/team/ivan.png"); }
+    background-image: url("../assets/team/ivan.gif"); }
   .team-list .team04 {
-    background-image: url("../assets/team/petar.png"); }
+    background-image: url("../assets/team/petar.gif"); }
   .team-list .team05 {
-    background-image: url("../assets/team/niksa.png"); }
+    background-image: url("../assets/team/niksa.gif"); }
 
 .contact-section {
   background-color: #F2F2F2;
