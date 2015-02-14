@@ -243,7 +243,8 @@ footer {
     @media screen and (max-width: 600px) {
       footer div {
         float: none;
-        text-align: center; } }
+        text-align: center;
+        margin: 0 auto; } }
     footer div h2 {
       font-size: 22px;
       font-weight: 800; }
