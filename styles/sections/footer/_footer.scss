@@ -1,6 +1,5 @@
 footer {
   width: 100%;
-  text-align: center;
   background-color: $primary-color;
   color: #fff;
   font-size: 12px;
@@ -8,8 +7,38 @@ footer {
   font-weight: 200;
   position: relative;
 
+
+  h1 {
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
   h2 {
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 200;
+    margin: 0;
+  }
+
+  ul {
+    margin: 20px 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    border-right: solid 1px #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0 20px;
+  }
+
+  li:first-child {
+    padding-left: 0;
+  }
+
+  li:last-child {
+    border: 0;
+    padding-right: 0;
   }
 }
