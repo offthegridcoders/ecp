@@ -205,7 +205,7 @@ footer {
   padding: 30px 50px;
   font-weight: 200;
   position: relative; }
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 600px) {
     footer {
       text-align: center; } }
   footer a {
@@ -237,9 +237,10 @@ footer {
   footer div {
     float: right;
     text-align: right;
-    width: 450px;
+    width: 250px;
+    max-width: 100%;
     margin-top: 15px; }
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 600px) {
       footer div {
         float: none;
         text-align: center; } }
