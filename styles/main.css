@@ -198,7 +198,7 @@ footer {
   background-color: #8DA94C;
   color: #fff;
   font-size: 12px;
-  padding: 30px 50px 150px;
+  padding: 30px 50px;
   font-weight: 200;
   position: relative; }
   footer h1 {
@@ -226,11 +226,19 @@ footer {
   footer div {
     float: right;
     text-align: right;
-    width: 400px; }
+    width: 450px;
+    margin-top: 15px; }
     footer div h2 {
-      font-weight: 600; }
+      font-size: 22px;
+      font-weight: 800; }
+    footer div p:first-child {
+      font-size: 16px;
+      font-size: 16px; }
     footer div p:last-child {
-      font-weight: 600; }
+      font-weight: 600;
+      font-size: 16px; }
+    footer div i {
+      font-size: 12px; }
 
 .team-section {
   background-color: #fff;
