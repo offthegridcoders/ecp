@@ -223,6 +223,14 @@ footer {
   footer li:last-child {
     border: 0;
     padding-right: 0; }
+  footer div {
+    float: right;
+    text-align: right;
+    width: 400px; }
+    footer div h2 {
+      font-weight: 600; }
+    footer div p:last-child {
+      font-weight: 600; }
 
 .team-section {
   background-color: #fff;

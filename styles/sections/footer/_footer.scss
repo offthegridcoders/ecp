@@ -41,4 +41,18 @@ footer {
     border: 0;
     padding-right: 0;
   }
+
+  div {
+    float: right;
+    text-align: right;
+    width: 400px;
+
+    h2 {
+      font-weight: 600;
+    }
+
+    p:last-child {
+      font-weight: 600;
+    }
+  }
 }
