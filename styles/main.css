@@ -100,7 +100,7 @@ nav:hover {
     border: 0; }
   @media screen and (max-width: 500px) {
     .clear-nav h1 {
-      display: none; } }
+      color: #B3aDad; } }
 
 .clear-nav:hover {
   transition: background-color .4s ease;
